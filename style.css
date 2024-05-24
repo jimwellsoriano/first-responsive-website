@@ -1097,3 +1097,30 @@ header .link-nav button {
         margin-right: 2em;
     }
 }
+
+@media (max-width: 480px){
+    .Lets-get-your {
+        font-size: 2em;
+    }
+
+    .Velocity-Bootstrap {
+        font-size: 1em;
+    }
+
+    header .link-nav a{
+        display: none;
+    }
+
+    header .link-nav {
+        flex-direction: column;
+    }
+
+    header .link-nav a {
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+
+    header .link-nav button {
+        margin-bottom: 1em;
+    }
+}
